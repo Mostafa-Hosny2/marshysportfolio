@@ -1,0 +1,139 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles */
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 40px 24px;
+    text-align: center;
+    border-bottom: 4px solid #3498db;
+}
+
+.header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.contact_info p {
+    font-size: 15px;
+    margin: 4px 0;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 1px;
+}
+
+/* Section Styling */
+.section {
+    background: white;
+    padding: 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: all 0.5s ease-in-out; /* Apply transition to the base state */
+
+}
+
+.section h2 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+/* Experience Items */
+.experience-item, .project-item {
+    margin-bottom: 32px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+/* .experience-item:last-child, .project-item:last-child {
+    border-bottom: none;
+} */
+
+.experience-item h3, .project-item h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.date {
+    color: #7f8c8d;
+    font-size: 15px;
+}
+
+.institution {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+ul {
+    padding-left: 24px;
+    margin: 14px 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Skills Grid */
+.skills-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.skill-cat {
+    background: #f8f9fa;
+    padding: 18px;
+    border-radius: 6px;
+    border: 1px solid #ecf0f1;
+}
+
+.skill-cat h4 {
+    color: #3498db;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+.section:hover {
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.5); /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+    transition: all 0.3s ease-in-out; /* transition:   the transition will apply to all animatable CSS properties including background-color, transform or opacity*/
+    transform: translateY(-10px);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
